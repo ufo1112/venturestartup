@@ -30,6 +30,7 @@ def main():
 
     request = youtube.subscriptions().list(
         part="snippet,contentDetails",
+        maxResults=50,
         mine=True
     )
     response = request.execute()
