@@ -32,6 +32,15 @@ with col1:
         st.write(' ')
         st.write(' ')
         st.write(' ')
+        st.write(' ')
+        st.write(' ')
+        st.write(' ')
+        st.write(' ')
+        st.write(' ')
+        st.write(' ')
+        st.write(' ')
+        st.write(' ')
+        st.write(' ')
         st.write(' ')       
         st.header('This is our #2 recommendation.') 
     #if main.resultList[0] == '오딘: 발할라 라이징':
@@ -49,7 +58,15 @@ with col1:
         #elif ...
     #else:
         #raise ValueError('There is no game in the list')
-        st.write(' ')
+        st.write(f'''
+            <a target="_self" href="https://game.kakao.com/games"> 
+                 <button type="button" style="width:300px;height:50px;background-color:rgb(255, 255, 255);border: 1px solid rgb(0, 0, 0);border-radius: 5px;">
+                    Don't like this game recommendation?
+                 </button>
+            </a>
+            ''',
+            unsafe_allow_html=True,
+        )    
 with col2:
         st.header('This is our #1 recommendation.')
     #if main.resultList[0] == '오딘: 발할라 라이징':
@@ -67,7 +84,25 @@ with col2:
         #elif ...
     #else:
         #raise ValueError('There is no game in the list')
+        st.write(f'''
+            <a target="_self" href="https://game.kakao.com/games"> 
+                 <button type="button" style="width:300px;height:50px;background-color:rgb(255, 255, 255);border: 1px solid rgb(0, 0, 0);border-radius: 5px;">
+                    Already playing this game?
+                 </button>
+            </a>
+            ''',
+            unsafe_allow_html=True,
+        )    
 with col3:
+        st.write(' ')
+        st.write(' ')
+        st.write(' ')
+        st.write(' ')
+        st.write(' ')
+        st.write(' ')
+        st.write(' ')
+        st.write(' ')
+        st.write(' ')
         st.write(' ')
         st.write(' ')
         st.write(' ')
@@ -106,6 +141,16 @@ with col3:
             ''',
             unsafe_allow_html=True,
         )
+        
         #elif ...
     #else:
         #raise ValueError('There is no game in the list')
+        st.write(f'''
+            <a target="_self" href="https://game.kakao.com/games"> 
+                 <button type="button" style="width:300px;height:50px;background-color:rgb(255, 255, 255);border: 1px solid rgb(0, 0, 0);border-radius: 5px;">
+                    Other game recommendations?
+                 </button>
+            </a>
+            ''',
+            unsafe_allow_html=True,
+        )    
