@@ -40,8 +40,5 @@ if __name__ == "__main__":
     for i in game_list:
         if i in completion.choices[0].message.content:
             resultList.append(i)
-    resultList[0] = '오딘: 발할라 라이징'
-    resultList[1] = '메이플스토리M'
-    resultList[2] = '카드라이더 러쉬플러스'
     print(resultList)
     os.system("streamlit run app.py")
