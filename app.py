@@ -4,7 +4,6 @@ from PIL import Image
 import os
 import main
 col1, col2, col3 = st.columns(3)
-
 with col1:
         st.write(' ')
         st.write(' ')
@@ -43,7 +42,7 @@ with col1:
         st.write(' ')
         st.write(' ')       
         st.header('This is our #2 recommendation.') 
-    #if main.resultList[0] == '오딘: 발할라 라이징':
+    #if main.resultList[0] == '메이플스토리M':
         img_url = 'https://playgame-img.kakaogames.com/production/images/o7gg-2023-06-08/09-02-36-034/appIcon.png'
         st.image(img_url, caption='메이플스토리M', channels='RGB', width=300)
         st.write(f'''
@@ -55,7 +54,10 @@ with col1:
             # how to make width of button 300px?
 
         )
-        #elif ...
+    #elif main.resultList[0] == '달빛조각사':
+    #    ...
+    #elif ...
+    #    ...
     #else:
         #raise ValueError('There is no game in the list')
         st.write(f'''
@@ -81,7 +83,10 @@ with col2:
             # how to make width of button 300px?
 
         )
-        #elif ...
+    #elif main.resultList[0] == '달빛조각사':
+    #    ...
+    #elif ...
+    #    ...
     #else:
         #raise ValueError('There is no game in the list')
         st.write(f'''
@@ -142,7 +147,10 @@ with col3:
             unsafe_allow_html=True,
         )
         
-        #elif ...
+    #elif main.resultList[0] == '달빛조각사':
+    #    ...
+    #elif ...
+    #   ...
     #else:
         #raise ValueError('There is no game in the list')
         st.write(f'''
